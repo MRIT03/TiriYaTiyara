@@ -1,0 +1,10 @@
+# Ignore .env files to avoid pushing API keys or other secrets
+*.env
+
+# Ignore other potentially sensitive files
+*.key
+*.pem
+# Ignore system folders
+/AppData/
+/Cookies/
+/Documents/

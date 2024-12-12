@@ -6,9 +6,13 @@ from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmb
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage  # Message types for chat
 from langgraph.prebuilt import create_react_agent  # For creating an agent that can use tools
 from langchain.tools import tool  # Decorator to create tools
+import os
 
-# API key for Google services
-api_key = "AIzaSyAbQW0ptDLOQKnORJRrdSbzA2FDq6jCBmM"
+api_key = os.getenv("GOOGLE_API_KEY")
+
+# .gitignore
+.env
+
 
 # Tool definition for adding numbers
 @tool

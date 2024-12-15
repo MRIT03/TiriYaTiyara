@@ -64,7 +64,7 @@ To get started, follow these steps:
 
 ## 1. Clone the Repository
 
-https://github.com/yourusername/tiri-ya-tiyara.git
+[https://github.com/yourusername/tiri-ya-tiyara.git](https://github.com/MRIT03/TiriYaTiyara)
 
 ## 2. Install Required Dependencies
 
@@ -97,13 +97,13 @@ streamlit run streamlit&tools.py
 
 # Usage 🎡
 
-Discover Destinations: Use the "Plan My Trip" feature to select your destination, travel style, and budget.
+- Discover Destinations: Use the "Plan My Trip" feature to select your destination, travel style, and budget.
 
-Generate Itineraries: Let the AI suggest a personalized itinerary based on your inputs.
+- Generate Itineraries: Let the AI suggest a personalized itinerary based on your inputs.
 
-Explore: Dive into the suggestions and refine your plan.
+- Explore: Dive into the suggestions and refine your plan.
 
-Chat with Tiri: Use the chatbot feature to ask travel-related questions in your preferred language.
+- Chat with Tiri: Use the chatbot feature to ask travel-related questions in your preferred language.
 
 # Future Enhancements 🌈
 
@@ -121,21 +121,21 @@ Enhanced mapping features to visualize routes and locations.
 
 We welcome contributions to make Tiri Ya Tiyara even better! To contribute:
 
-Fork the repository.
+- Fork the repository.
 
-Create a feature branch.
+- Create a feature branch.
 
-Submit a pull request describing your changes.
+- Submit a pull request describing your changes.
 
 # Acknowledgments 🙏
 
 Special thanks to:
 
-The developers of LangChain, ChromaDB, and Streamlit for their incredible tools.
+- The developers of LangChain, ChromaDB, and Streamlit for their incredible tools.
 
-Google for providing robust APIs and embedding models.
+- Google for providing robust APIs and embedding models.
 
-Lebanon’s beautiful landscapes for inspiring this project.
+- Lebanon’s beautiful landscapes for inspiring this project.
 
 # License 🔒
 
@@ -147,5 +147,5 @@ For questions, suggestions, or feedback, please reach out to us at:
 
 Email: support@tiriyatiyara.com
 
-GitHub: yourusername
+GitHub: MRIT03
 

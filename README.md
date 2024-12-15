@@ -40,23 +40,23 @@ This project leverages modern tools and frameworks to provide a cutting-edge sol
 
 ## Back-End
 
-Python: Main programming language for development.
+- Python: Main programming language for development.
 
-LangChain: To handle AI integrations and workflows.
+- LangChain: To handle AI integrations and workflows.
 
-ChromaDB: A vector database for efficient similarity searches.
+- ChromaDB: A vector database for efficient similarity searches.
 
-Google Generative AI Embeddings: For document embedding and intelligent recommendations.
+- Google Generative AI Embeddings: For document embedding and intelligent recommendations.
 
 ## Front-End
 
-Streamlit: For a clean, interactive user interface.
+- Streamlit: For a clean, interactive user interface.
 
 ## Data Handling
 
-pandas: For data manipulation and CSV file handling.
+- pandas: For data manipulation and CSV file handling.
 
-Deep Translator: For seamless multilingual support.
+- Deep Translator: For seamless multilingual support.
 
 # Installation 🔧
 
@@ -64,7 +64,7 @@ To get started, follow these steps:
 
 ## 1. Clone the Repository
 
-[https://github.com/yourusername/tiri-ya-tiyara.git](https://github.com/MRIT03/TiriYaTiyara)
+https://github.com/MRIT03/TiriYaTiyara
 
 ## 2. Install Required Dependencies
 
@@ -109,13 +109,13 @@ streamlit run streamlit&tools.py
 
 We are constantly looking to improve and expand Tiri Ya Tiyara. Planned updates include:
 
-Integration with real-time weather data for each destination.
+- Integration with real-time weather data for each destination.
 
-Support for hotel and restaurant recommendations.
+- Support for hotel and restaurant recommendations.
 
-Social sharing options to share your itinerary with friends.
+- Social sharing options to share your itinerary with friends.
 
-Enhanced mapping features to visualize routes and locations.
+- Enhanced mapping features to visualize routes and locations.
 
 # Contributing 🚀
 

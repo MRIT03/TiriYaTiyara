@@ -135,6 +135,10 @@ Special thanks to:
 
 - Google for providing robust APIs and embedding models.
 
+- Another Thanks to Google. Google ❤️
+
+- Dr Saab for his guidance.
+
 - Lebanon’s beautiful landscapes for inspiring this project.
 
 # License 🔒
@@ -145,7 +149,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 For questions, suggestions, or feedback, please reach out to us at:
 
-Email: support@tiriyatiyara.com
+Email: joe.elderjany@lau.edu
 
 GitHub: MRIT03
 

@@ -83,7 +83,7 @@ class TranslationManager:
     @tool
     def translate_text(self, text: str, target_lang: str, source_lang: str = 'auto') -> str:
         """
-        Translate text to target language
+        Translate text to target language using Google API
         """
         try:
             self.translator = GoogleTranslator(source=source_lang, target=target_lang)

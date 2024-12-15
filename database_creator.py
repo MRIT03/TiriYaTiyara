@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 
 from langchain_chroma import Chroma  # Vector database for storing embeddings
 from langchain_community.document_loaders import CSVLoader
@@ -6,8 +7,8 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 import time
 
 # Set your Google API key
-api_key = os.getenv("GOOOGLE_API_KEY")
-
+load_dotenv()
+api_key = os.getenv("GOOGLE_API_KEY")
 # Initialize the embedding model using Google's generative AI embeddings
 embeddings = GoogleGenerativeAIEmbeddings(
     model="models/embedding-001",
@@ -23,7 +24,7 @@ vector_store = Chroma(
 )
 
 # Path to your CSV file
-csv_file_path = "cleaned_data.csv"
+csv_file_path = "updated_dataset_with_avg_price.csv"
 
 # Load data from CSV into documents (with UTF-8 encoding if needed)
 loader = CSVLoader(file_path=csv_file_path, encoding="utf-8")
@@ -35,7 +36,7 @@ batch_size = 50
 i = 0
 print(len(documents))
 while True:
-    print("hi")
+    print("Batch " + str(i))
     print(len(documents))
     batch = documents[i:i+batch_size]
     vector_store.add_documents(batch)

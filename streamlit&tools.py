@@ -8,8 +8,10 @@ from langgraph.prebuilt import create_react_agent
 from langchain.tools import tool
 from deep_translator import GoogleTranslator
 import os
+from dotenv import load_dotenv
 
-api_key = ""
+load_dotenv()
+api_key = os.getenv("GOOGLE_API_KEY")
 
 # Dictionary of language codes and their names
 LANGUAGES = {
@@ -73,11 +75,12 @@ def search_vector_db(query: str) -> str:
     
     return result_str
 
-@tool
+
 class TranslationManager:
     def __init__(self):
         self.translator = GoogleTranslator()
     
+    @tool
     def translate_text(self, text: str, target_lang: str, source_lang: str = 'auto') -> str:
         """
         Translate text to target language

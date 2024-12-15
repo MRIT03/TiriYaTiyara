@@ -7,7 +7,9 @@ from langchain_core.messages import HumanMessage, AIMessage, SystemMessage  # Me
 from langgraph.prebuilt import create_react_agent  # For creating an agent that can use tools
 from langchain.tools import tool  # Decorator to create tools
 import os
+from dotenv import load_dotenv
 
+load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
 
 

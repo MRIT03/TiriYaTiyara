@@ -70,18 +70,18 @@ https://github.com/MRIT03/TiriYaTiyara
 
 Install all the required Python libraries:
 
-pip install python-dotenv
-pip install langchain
-pip install langchain-google-genai
-pip install langchain-core
-pip install langchain_chroma
-pip install langgraph
-pip install chromadb
-pip install langchain-community
-pip install pypdf
-pip install streamlit
-pip install deep-translator
-pip install pandas
+- pip install python-dotenv
+- pip install langchain
+- pip install langchain-google-genai
+- pip install langchain-core
+- pip install langchain_chroma
+- pip install langgraph
+- pip install chromadb
+- pip install langchain-community
+- pip install pypdf
+- pip install streamlit
+- pip install deep-translator
+- pip install pandas
 
 ## 3. Set Up Environment Variables
 

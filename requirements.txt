@@ -1,0 +1,11 @@
+pip install python-dotenv
+pip install langchain
+pip install langchain-google-genai
+pip install langchain-core
+pip install langchain_chroma
+pip install langgraph
+pip install chromadb
+pip install langchain-community
+pip install streamlit
+pip install deep-translator
+pip install pandas
